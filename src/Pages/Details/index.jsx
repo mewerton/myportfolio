@@ -5,8 +5,8 @@ export function Details(){
   return(
     <Container>
       <div>
-        <h1>Olá Pessoal</h1>
-        <h2>Bem-vindo!</h2>
+        <h1>Olá Pessoal! Meu nome é Mewerton e vamos iniciar esse projeto!</h1>
+        
       </div>
     </Container>
   ) 
