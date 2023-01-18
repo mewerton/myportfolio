@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 
-button{
+.button{
 
     border-radius: 34px;
     border: none;
@@ -30,7 +30,7 @@ button{
     transition: filter 0.2s;
 }
 
-button:hover{
+.button:hover{
     background: ${({theme}) => theme.COLORS.white};
     color: ${({theme}) => theme.COLORS.orange};
     border: 1px solid ${({theme}) => theme.COLORS.orange};
