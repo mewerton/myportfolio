@@ -59,19 +59,53 @@ margin-top: 6rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .i-right{
     flex:1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+
+.i-right>:nth-child(2){
+    top: -4.6%;
+    transform: scale(0.67);
+    left: -3rem;
+}
+
+.i-right>:nth-child(3){
+    transform: scale(1.4);
+    left: 28%;
+}
+
+.i-right>:nth-child(4){
+    transform: scale(0.11);
+    top: -110%;
+    left: -84%;
+    border-radius: 40%;
+    padding: 0;
+
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius:  50%;
+    background: ${({theme}) => theme.COLORS.background_100};
+    filter: blur(212px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
 }
 
 `

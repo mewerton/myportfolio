@@ -14,6 +14,7 @@ export default {
 
     background_yellow: "linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%)",
     background_orange: "rgba(251, 161, 40, 0.42)",
+    background_100: "#edd0ff"
 
     }
 }

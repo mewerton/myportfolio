@@ -3,6 +3,14 @@ import { Container } from "./styles";
 import Github from "../../assets/github.png"
 import Linkedin from "../../assets/linkedin.png"
 import Instagram from "../../assets/instagram.png"
+import Vector1 from "../../assets/Vector1.png"
+import Vector2 from "../../assets/Vector2.png"
+import boy from "../../assets/boy.png"
+import thumbup from "../../assets/thumbup.png"
+import Crown from "../../assets/crown.png"
+import developer from "../../assets/EmojiDeveloper.png"
+import { FloatingDiv } from "../FloatingDiv";
+
 
 
 export function Intro(){
@@ -11,7 +19,7 @@ export function Intro(){
         <Container>
             <div className="i-left">
                 <div className="i-name">
-                    <span>Olá! Eu sou</span>
+                    <span>Olá! Sou o</span>
                     <span>Mewerton Melo</span>
                     <span>Desenvolvedor Front-End e Bacharel em Sistemas
                     de Informações pela Universidade Estácio de Sá</span>
@@ -30,8 +38,28 @@ export function Intro(){
                 </div>
             </div>
             <div className="i-right">
-                i am right side
-            </div>
+                <img src={Vector1} alt="" />
+                <img src={Vector2} alt="" />
+                <img src={boy} alt="" />
+                <img src={developer}  alt="" />
+                <div style={{top: "-4%", left:"68%"}}>
+                    <FloatingDiv image={Crown} txt1="Desenvolvedor" txt2="Web"/>
+                </div>
+                <div style={{top:"18rem", left:"0rem"}}>
+                    <FloatingDiv image={thumbup} txt1="Experiencia com" txt2="Web Designer"/>
+                </div>
+                {/* blur divs */}
+                <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
+                <div className="blur" style={{
+                    background:"#c1f5ff",
+                    top:"17rem",
+                    width:"21rem",
+                    height:"11rem",
+                    left:"-9rem"
+                    }}>
+
+                </div>
+           </div>
         </Container>
     )
 }

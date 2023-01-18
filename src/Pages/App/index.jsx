@@ -8,6 +8,7 @@ export function App(){
     <Container>
       <Navbar/>
       <Intro/>
+      
 
     </Container>
   ) 
