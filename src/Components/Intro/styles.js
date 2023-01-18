@@ -43,6 +43,31 @@ margin-top: 6rem;
     height: 2rem;
 }
 
+.i-icons{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .i-right{
