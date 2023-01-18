@@ -11,6 +11,7 @@ margin-top: 6rem;
     position: relative;
     flex: 1;
     flex-direction: column;
+    gap: 2rem;
 
 }
 .i-name{
@@ -33,7 +34,13 @@ margin-top: 6rem;
 .i-name>:nth-child(3){
     font-weight:100;
     font-size: 14px;
-    color: ${({theme}) => theme.COLORS.black};
+    color: ${({theme}) => theme.COLORS.gray};
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 8rem;
+    height: 2rem;
 }
 
 
