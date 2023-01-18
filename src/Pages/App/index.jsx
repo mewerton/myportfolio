@@ -1,6 +1,6 @@
 import { Container } from "./styles"
 
-export function Details(){
+export function App(){
     
   return(
     <Container>
