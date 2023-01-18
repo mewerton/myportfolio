@@ -88,8 +88,8 @@ margin-top: 6rem;
 
 .i-right>:nth-child(4){
     transform: scale(0.11);
-    top: -110%;
-    left: -84%;
+    top: -95%;
+    left: -70%;
     border-radius: 40%;
     padding: 0;
 
@@ -101,7 +101,6 @@ margin-top: 6rem;
     height: 14rem;
     border-radius:  50%;
     background: ${({theme}) => theme.COLORS.background_100};
-    filter: blur(212px);
     z-index: -9;
     top: -18%;
     left: 56%;

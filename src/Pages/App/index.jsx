@@ -1,5 +1,6 @@
 import { Intro } from "../../Components/Intro"
 import { Navbar } from "../../Components/Navbar"
+import { Services } from "../../Components/Services"
 import { Container } from "./styles"
 
 export function App(){
@@ -8,7 +9,8 @@ export function App(){
     <Container>
       <Navbar/>
       <Intro/>
-      
+      <Services/>
+
 
     </Container>
   ) 
