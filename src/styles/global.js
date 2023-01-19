@@ -55,6 +55,25 @@ a{
     filter: blur(72px);
 }
 
+.s-blur1{
+    left: -17rem;
+    top: 13rem;
+}
+
+.s-blur2{
+    top: 10rem;
+    left: 10rem;
+}
+
+/* .t-blur1{
+    top: 10rem;
+    left: 10rem;
+}
+.t-blur2{
+    left: -17rem;
+    top: 13rem;
+} */
+
 .awesome{
     display: flex;
     flex-direction: column;
