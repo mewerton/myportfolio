@@ -17,7 +17,7 @@ export function Experience(){
             <div className="achievement">
                 <div className="circle">4+</div>
                 <span>Empresas</span>
-                <span>tralhadas</span>
+                <span>trabalhadas</span>
                 
             </div>
         </Container>

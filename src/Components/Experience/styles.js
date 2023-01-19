@@ -43,5 +43,9 @@ export const Container = styled.div`
 
     }
 
+    .achievement span:nth-of-type(2){
+        color: ${({theme}) => theme.COLORS.orange};
+    }
+    
 
 `
