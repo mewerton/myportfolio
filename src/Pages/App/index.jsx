@@ -1,5 +1,6 @@
 import { Contact } from "../../Components/Contact"
 import { Experience } from "../../Components/Experience"
+import { Footer } from "../../Components/Footer"
 import { Intro } from "../../Components/Intro"
 import { Navbar } from "../../Components/Navbar"
 import { Portfolio } from "../../Components/Portfolio"
@@ -20,8 +21,7 @@ export function App(){
       <Portfolio/>
       {/* <Testemonials/> */}
       <Contact/>
-
-
+      <Footer/>
     </Container>
   ) 
 }
