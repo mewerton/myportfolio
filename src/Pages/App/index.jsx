@@ -1,3 +1,4 @@
+import { Contact } from "../../Components/Contact"
 import { Experience } from "../../Components/Experience"
 import { Intro } from "../../Components/Intro"
 import { Navbar } from "../../Components/Navbar"
@@ -18,6 +19,7 @@ export function App(){
       <Works/>
       <Portfolio/>
       {/* <Testemonials/> */}
+      <Contact/>
 
 
     </Container>

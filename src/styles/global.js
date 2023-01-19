@@ -65,14 +65,14 @@ a{
     left: 10rem;
 }
 
-/* .t-blur1{
+.t-blur1{
     top: 10rem;
     left: 10rem;
 }
 .t-blur2{
     left: -17rem;
     top: 13rem;
-} */
+} 
 
 .awesome{
     display: flex;
