@@ -9,11 +9,15 @@ import boy from "../../assets/boy.png"
 import thumbup from "../../assets/thumbup.png"
 import Crown from "../../assets/crown.png"
 import developer from "../../assets/EmojiDeveloper.png"
-import { FloatingDiv } from "../FloatingDiv";
+import { FloatingDiv } from "../FloatingDiv"
+import { motion } from "framer-motion"
+
 
 
 
 export function Intro(){
+
+    const transition = {duration : 2, type: "spring"}
 
     return(
         <Container>
@@ -41,13 +45,28 @@ export function Intro(){
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
-                <img src={developer}  alt="" />
-                <div style={{top: "-4%", left:"68%"}}>
+                <motion.img
+                    initial={{left:"-36%"}}
+                    whileInView={{ left: "-24%"}}
+                    transition={transition}
+                    src={developer}  alt="" 
+                />
+                <motion.div 
+                    initial={{top: "-4%", left: "74%"}}
+                    whileInView={{ left: "68%"}}
+                    transition={transition}
+
+                    style={{top: "-4%", left:"68%"}}>
                     <FloatingDiv image={Crown} txt1="Desenvolvedor" txt2="Web"/>
-                </div>
-                <div style={{top:"18rem", left:"0rem"}}>
+                </motion.div>
+                <motion.div 
+                    initial={{top: "18rem", left: "9rem"}}
+                    whileInView={{ left: "0rem"}}
+                    transition={transition}
+
+                    style={{top:"18rem", left:"0rem"}}>
                     <FloatingDiv image={thumbup} txt1="Experiencia com" txt2="Web Designer"/>
-                </div>
+                </motion.div>
                 {/* blur divs */}
                 <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
                 <div className="blur" style={{

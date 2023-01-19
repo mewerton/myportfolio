@@ -47,6 +47,17 @@ margin-bottom: 13rem ;
 .cards>*{
     position: absolute;
 }
+
+.cards > :nth-child(1){
+
+}
+.cards > :nth-child(2){
+    
+}
+.cards > :nth-child(3){
+    
+}
+
 /* INICIO */
 .blur{
     position: absolute;

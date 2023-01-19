@@ -89,7 +89,8 @@ margin-top: 6rem;
 .i-right>:nth-child(4){
     transform: scale(0.11);
     top: -95%;
-    left: -70%;
+    left: 80%;
+    margin-left: -16rem;
     border-radius: 40%;
     padding: 0;
 

@@ -1,4 +1,5 @@
 import { Container } from "./styles";
+import { Toggle } from "../Toggle";
 
 export function Navbar(){
 
@@ -6,7 +7,7 @@ export function Navbar(){
         <Container>
             <div className="n-left">
                 <div className="n-name">Mewerton</div>
-                <span>toggle</span>
+                {/* <Toggle/> */}
             </div>
             <div className="n-right">
                 <div className="n-list">
