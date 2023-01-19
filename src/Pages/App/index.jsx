@@ -1,3 +1,4 @@
+import { Experience } from "../../Components/Experience"
 import { Intro } from "../../Components/Intro"
 import { Navbar } from "../../Components/Navbar"
 import { Services } from "../../Components/Services"
@@ -10,6 +11,7 @@ export function App(){
       <Navbar/>
       <Intro/>
       <Services/>
+      <Experience/>
 
 
     </Container>
