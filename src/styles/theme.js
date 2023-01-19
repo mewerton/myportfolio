@@ -18,6 +18,12 @@ export default {
     background_orange: "rgba(251, 161, 40, 0.42)",
     background_100: "#edd0ff",
     background_200: "rgba(255, 255, 255, 0.26)",
+    background_050: "#ebebeb",
+    
+    blueCircle: "#1949b8",
+    yellowCircle: "#f5c32c",
+
+
 
     }
 }

@@ -12,18 +12,18 @@ export function Services(){
         <Container>
             {/* left side */}
             <div className="awesome">
-            <span>Minhas áreas</span>
-            <span>de trabalho</span>
-            <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste, distinctio rem
-                <br />
-                ispum is simples dummy text of printing
-            </span>
-            <a href={CV} download>
-            <button className="button s-button">Download CV</button>
-            </a>
-            {/* blur divs */}
-            <div className="blur s-blur1" style={{background:"#abf1ff94"}}></div>
+                <span>Minhas áreas</span>
+                <span>de trabalho</span>
+                <span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste, distinctio rem
+                    <br />
+                    ispum is simples dummy text of printing
+                </span>
+                <a href={CV} download>
+                <button className="button s-button">Download CV</button>
+                </a>
+                {/* blur divs */}
+                <div className="blur s-blur1" style={{background:"#abf1ff94"}}></div>
             </div>
 
             {/* right side */}

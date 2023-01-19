@@ -9,6 +9,7 @@ margin-bottom: 8rem;
 margin-top: 9rem;
 margin-bottom: 13rem ;
 
+/* INICIO DO QUE PODE EXCLUIR POR JÁ ESTAR NO GLOBAL */
 .awesome{
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@ margin-bottom: 13rem ;
     height: 2rem;
     margin-top: 1rem;
 }
-
+/* FIM */
 .cards{
     position: relative;
 }
@@ -46,7 +47,7 @@ margin-bottom: 13rem ;
 .cards>*{
     position: absolute;
 }
-
+/* INICIO */
 .blur{
     position: absolute;
     width: 22rem;
@@ -58,7 +59,7 @@ margin-bottom: 13rem ;
     left: 56%;
     filter: blur(72px);
 }
-
+/* FIM */
 .s-blur1{
     left: -17rem;
     top: 13rem;
