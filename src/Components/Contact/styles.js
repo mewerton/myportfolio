@@ -57,5 +57,16 @@ textarea{
     left: 8rem;
 }
 
+@media screen and (max-width: 480px){
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+
+        .c-right .user{
+        width: 16rem;
+        }
+}
+
 
 `

@@ -12,8 +12,8 @@ import 'swiper/css'
 export function Portfolio(){
 
     return(
-        <Container id="Portfolio">
-            <div className="portfolio">
+        <Container >
+            <div className="portfolio" id="Portfolio">
 
                 {/* heading */}
                 <span>Projetos recentes</span>

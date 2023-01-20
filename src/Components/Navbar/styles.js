@@ -17,6 +17,7 @@ justify-content: space-between;
 .n-name{
     font-size: 1.3rem;
     font-weight: bold;
+    margin-right: 1rem;
 
 }
 .n-right{
@@ -46,6 +47,19 @@ justify-content: space-between;
 
 .n-button{
     flex: 2;
+}
+
+
+@media screen and (max-width: 480px){
+    
+    .n-list{
+        display: none;
+    }
+
+    .n-button{
+        display: none;
+    }
+    
 }
 
 

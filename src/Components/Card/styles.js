@@ -36,4 +36,9 @@ export const Container = styled.div`
 
         cursor: pointer;
     }
+
+    @media screen and (max-width: 480px){
+        width: 100%;
+    }
+
 `

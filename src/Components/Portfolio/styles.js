@@ -45,6 +45,6 @@ export const Container = styled.div`
         filter: drop-shadow(-12px 15px 13px ${({theme}) => theme.COLORS.background_300});
         border-radius: 19px;
     }
-     
+    
 
 `

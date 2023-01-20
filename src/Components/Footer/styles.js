@@ -25,4 +25,10 @@ export const Container = styled.div`
 
     }
 
+    @media screen and (max-width: 480px){
+        .f-content{
+            transform: scale(.5);
+        }
+    }
+
 `

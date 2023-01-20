@@ -46,6 +46,25 @@ export const Container = styled.div`
     .achievement span:nth-of-type(2){
         color: ${({theme}) => theme.COLORS.orange};
     }
+
+    @media screen and (max-width: 480px){
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 10rem;
+
+        .circle::before{
+
+        top: -3px;
+        left: -3px;
+        bottom: -3px;
+        right: -3px;
+        }
+
+        .circle{
+            margin-top: -1rem;
+            margin-bottom: 1rem;
+        }
+    }
     
 
 `

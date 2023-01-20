@@ -40,8 +40,9 @@ a{
     background: ${({theme}) => theme.COLORS.white};
     color: ${({theme}) => theme.COLORS.orange};
     border: 1px solid ${({theme}) => theme.COLORS.orange};
-
 }
+
+
 
 .blur{
     position: absolute;
@@ -98,4 +99,11 @@ a{
     font-size: 14px;
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 480px){
+    
+}
+
+
+
 `

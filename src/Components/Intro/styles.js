@@ -76,9 +76,9 @@ margin-top: 6rem;
 }
 
 .i-right>:nth-child(2){
-    top: -4.6%;
+    top: -18.6%;
     transform: scale(0.67);
-    left: -3rem;
+    left: -2rem;
 }
 
 .i-right>:nth-child(3){
@@ -88,11 +88,11 @@ margin-top: 6rem;
 
 .i-right>:nth-child(4){
     transform: scale(0.11);
-    top: -95%;
-    left: 80%;
-    margin-left: -16rem;
-    border-radius: 40%;
+    
+    border-radius: 50%;
     padding: 0;
+    margin-top: -25rem;
+    margin-left: -15rem;
 
 }
 
@@ -106,6 +106,32 @@ margin-top: 6rem;
     top: -18%;
     left: 56%;
     filter: blur(72px);
+}
+
+@media screen and (max-width: 480px){
+    flex-direction: column;
+    height: 64rem;
+    gap: 7rem;
+
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+
+    .i-right .blur{
+        display: none;
+    }
+
+    .floating-div:nth-of-type(1){
+        top: -7rem !important
+
+    }
+
+    .i-right>:nth-child(3){
+    transform: scale(1.3);
+    left: 58%;
+}
+
 }
 
 `

@@ -82,4 +82,22 @@ margin-bottom: 13rem ;
     left: 10rem;
 }
 
+@media screen and (max-width: 480px){
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+
+    }
+    .cards>*{
+        position: static;
+    }
+}
+
 `

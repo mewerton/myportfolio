@@ -56,7 +56,9 @@ export function Intro(){
                     whileInView={{ left: "68%"}}
                     transition={transition}
 
-                    style={{top: "-4%", left:"68%"}}>
+                    style={{top: "-4%", left:"68%"}}
+                    className="floating-div"
+                    >
                     <FloatingDiv image={Crown} txt1="Desenvolvedor" txt2="Web"/>
                 </motion.div>
                 <motion.div 
@@ -64,7 +66,9 @@ export function Intro(){
                     whileInView={{ left: "0rem"}}
                     transition={transition}
 
-                    style={{top:"18rem", left:"0rem"}}>
+                    style={{top:"18rem", left:"0rem"}}
+                    className="floating-div"
+                    >
                     <FloatingDiv image={thumbup} txt1="Experiencia com" txt2="Web Designer"/>
                 </motion.div>
                 {/* blur divs */}
