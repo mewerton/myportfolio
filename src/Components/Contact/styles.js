@@ -80,6 +80,9 @@ textarea{
         .c-right .user{
         width: 16rem;
         }
+        .awesome >img{
+            display: none;
+        }
 }
 
 
