@@ -3,6 +3,8 @@ import { Container } from "./styles";
 import HeratEmoji from "../../assets/heartemoji.png"
 import Glasses from "../../assets/glasses.png"
 import Humble from "../../assets/humble.png"
+import Vector3 from "../../assets/Vector3.png"
+
 import { Card } from "../Card";
 import CV from "./CV_Mewerton_Melo.pdf"
 
@@ -28,6 +30,7 @@ export function Services(){
                 </a>
                 {/* blur divs */}
                 <div className="blur s-blur1" style={{background:"#abf1ff94"}}></div>
+                <img src={Vector3} alt="" />
             </div>
 
             {/* right side */}

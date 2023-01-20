@@ -74,14 +74,14 @@ margin-top: 6rem;
 }
 
 .i-right>:nth-child(1){
-    transform: scale(0.69);
+    transform: scale(0.82);
     left: -15%;
-    top: -9%;
+    top: 8%;
 }
 
 .i-right>:nth-child(2){
-    top: -18.6%;
-    transform: scale(0.67);
+    top: -13.6%;
+    transform: scale(0.77);
     left: -2rem;
 }
 

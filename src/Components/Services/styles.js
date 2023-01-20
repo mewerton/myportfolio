@@ -33,6 +33,15 @@ margin-bottom: 13rem ;
     font-size: 14px;
     margin-top: 1rem;
 }
+.awesome >img{
+    scale: calc(0.4);
+    margin-left: -23rem;
+    margin-top: 10rem;
+    flex:1;
+    position: absolute;
+
+}
+
 .s-button{
     width: 8rem;
     height: 2rem;
@@ -97,6 +106,11 @@ margin-bottom: 13rem ;
     .cards>*{
         position: static;
     }
+
+    .awesome >img{
+    display: none;
+
+}
 }
 
 `

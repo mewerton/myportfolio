@@ -61,6 +61,16 @@ textarea{
     left: 8rem;
 }
 
+.awesome >img{
+    scale: calc(1);
+    margin-left:-4rem;
+    margin-top: 6rem;
+    flex:1;
+    position: absolute;
+    
+
+}
+
 @media screen and (max-width: 480px){
         padding: 0;
         flex-direction: column;
