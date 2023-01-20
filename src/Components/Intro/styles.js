@@ -21,7 +21,7 @@ margin-top: 6rem;
 }
 
 .i-name>:nth-child(1){
-    color: ${({theme}) => theme.COLORS.black};
+    color: ${({theme}) => theme.COLORS.white};
     font-weight: bold;
     font-size: 3rem;
 }
@@ -35,7 +35,7 @@ margin-top: 6rem;
 .i-name>:nth-child(3){
     font-weight:100;
     font-size: 14px;
-    color: ${({theme}) => theme.COLORS.gray};
+    color: ${({theme}) => theme.COLORS.white};
     margin-top: 10px;
 }
 
@@ -134,5 +134,8 @@ margin-top: 6rem;
 }
 
 }
+
+/* background */
+
 
 `

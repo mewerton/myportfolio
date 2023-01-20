@@ -23,7 +23,7 @@ export function Intro(){
         <Container>
             <div className="i-left">
                 <div className="i-name">
-                    <span>Olá! Sou o</span>
+                    <span>Olá! Sou</span>
                     <span>Mewerton Melo</span>
                     <span>Desenvolvedor Front-End e Bacharel em Sistemas
                     de Informações pela Universidade Estácio de Sá</span>
@@ -83,6 +83,11 @@ export function Intro(){
 
                 </div>
            </div>
+            
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+            
         </Container>
     )
 }
