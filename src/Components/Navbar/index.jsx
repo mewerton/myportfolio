@@ -1,5 +1,8 @@
 import { Container } from "./styles";
-import { Toggle } from "../Toggle";
+// import { Toggle } from "../Toggle";
+
+import { Link } from "react-scroll"
+
 
 export function Navbar(){
 
@@ -12,16 +15,26 @@ export function Navbar(){
             <div className="n-right">
                 <div className="n-list">
                     <ul style={{listStyleType:"none"}}>
-                        <li>Inicio</li>
+                        <Link spy={true} to="Navbar" smooth={true} activeClass="activeClass">
+                        <li>Início</li>
+                        </Link>
+                        <Link spy={true} to="Services" smooth={true}>
                         <li>Serviços</li>
+                        </Link>
+                        <Link spy={true} to="Experience" smooth={true}>
                         <li>Experiência</li>
-                        <li>Portfolio</li>
-                        <li>Testemunhas</li>
+                        </Link>
+                        <Link spy={true} to="Portfolio" smooth={true}>
+                        <li>Portfólio</li>
+                        </Link>
+                        {/* <li>Testemunhas</li> */}
                     </ul>
                 </div>
-                <button className="button n-button">
+                <Link spy={true} to="Contact" smooth={true}>
+                <button className="button n-button">    
                     Contato
                 </button>
+                </Link>
             </div>
         </Container>
     )

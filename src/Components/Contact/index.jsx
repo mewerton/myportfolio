@@ -18,7 +18,7 @@ export function Contact(){
     };
 
     return(
-        <Container>
+        <Container id="Contact">
             <div className="w-left">
                 <div className="awesome">
                     <span>Entre em </span>

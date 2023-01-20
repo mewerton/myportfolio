@@ -12,7 +12,7 @@ import 'swiper/css'
 export function Portfolio(){
 
     return(
-        <Container>
+        <Container id="Portfolio">
             <div className="portfolio">
 
                 {/* heading */}

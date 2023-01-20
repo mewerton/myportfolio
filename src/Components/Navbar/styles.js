@@ -36,6 +36,7 @@ justify-content: space-between;
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 
 .n-list> ul >li:hover{

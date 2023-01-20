@@ -6,7 +6,7 @@ padding: 0 3rem 0 3rem;
 display: flex;
 height: 90vh;
 margin-bottom: 8rem;
-margin-top: 9rem;
+margin-top: 10rem;
 margin-bottom: 13rem ;
 
 /* INICIO DO QUE PODE EXCLUIR POR JÁ ESTAR NO GLOBAL */
@@ -49,6 +49,7 @@ margin-bottom: 13rem ;
 }
 
 .cards > :nth-child(1){
+    margin-top: 1rem;
 
 }
 .cards > :nth-child(2){
