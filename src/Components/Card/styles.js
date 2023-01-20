@@ -16,7 +16,7 @@ export const Container = styled.div`
     padding:  0px 26px 2rem 26px;
 
     span:nth-of-type(2){
-        color: ${({theme}) => theme.COLORS.gray};
+        color: ${({theme}) => theme.COLORS.white};
         font-size: 16px;
     }
 

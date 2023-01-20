@@ -42,6 +42,9 @@ margin-top: 6rem;
 .i-button{
     width: 8rem;
     height: 2rem;
+    cursor: auto;
+    
+   
 }
 
 .i-icons{

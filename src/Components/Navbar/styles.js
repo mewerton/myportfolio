@@ -21,6 +21,8 @@ max-width: 1480px;
     font-weight: bold;
     margin-right: 1rem;
 
+    color: ${({theme}) =>theme.COLORS.white};
+
 }
 .n-right{
     display: flex;
@@ -40,6 +42,12 @@ max-width: 1480px;
     gap: 2rem;
     margin-right: 4rem;
     cursor: pointer;
+    color: ${({theme}) =>theme.COLORS.white};
+
+    li:hover{
+        color: ${({theme}) =>theme.COLORS.orange};
+        transition: 0.2s;
+    }
 }
 
 .n-list> ul >li:hover{

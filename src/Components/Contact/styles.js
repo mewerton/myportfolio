@@ -7,6 +7,10 @@ export const Container = styled.div`
     height: 80vh;
     margin-top: 6rem;
 
+.awesome span:nth-of-type(1){
+    color: ${({theme}) => theme.COLORS.white};
+}
+
 .c-right{
     display: flex;
     justify-content: center;

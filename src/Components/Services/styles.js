@@ -16,7 +16,7 @@ margin-bottom: 13rem ;
 }
 
 .awesome > :nth-child(1){
-    color: ${({theme}) => theme.COLORS.black};
+    color: ${({theme}) => theme.COLORS.white};
     font-size: 2.5rem;
     font-weight: bold;
 
@@ -29,7 +29,7 @@ margin-bottom: 13rem ;
 }
 
 .awesome > :nth-child(3){
-    color: ${({theme}) => theme.COLORS.gray};
+    color: ${({theme}) => theme.COLORS.white};
     font-size: 14px;
     margin-top: 1rem;
 }

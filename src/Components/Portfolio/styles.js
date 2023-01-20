@@ -13,7 +13,7 @@ export const Container = styled.div`
     /* heading */
 
     .portfolio span:nth-of-type(1){
-        color: ${({theme}) => theme.COLORS.black};
+        color: ${({theme}) => theme.COLORS.white};
         font-size: 2rem;
         font-weight: bold;
     }

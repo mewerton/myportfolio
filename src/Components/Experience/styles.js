@@ -17,8 +17,8 @@ export const Container = styled.div`
     }
 
     .circle{
-        height: 4rem;
-        width: 4rem;
+        height: 5rem;
+        width: 5rem;
         background: ${({theme}) => theme.COLORS.white};
         border-radius: 100%;
         position: relative;
@@ -28,19 +28,24 @@ export const Container = styled.div`
         font-size:  1.5rem;
         font-weight: bold;
         margin-bottom: 2rem;
+        
     }
     .circle::before{
         border-radius: 100%;
         content: '';
         background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
-        top: -8px;
-        left: -8px;
-        bottom: -8px;
-        right: -8px;
+        top: -9px;
+        left: -9px;
+        bottom: -9px;
+        right: -9px;
         position: absolute;
         z-index: -1;
         box-shadow: ${({theme}) => theme.COLORS.boxShadow};
 
+    }
+   
+    .achievement span:nth-of-type(1){
+        color: ${({theme}) => theme.COLORS.white};
     }
 
     .achievement span:nth-of-type(2){
@@ -50,8 +55,8 @@ export const Container = styled.div`
     @media screen and (max-width: 480px){
         flex-direction: column;
         gap: 3rem;
-        margin-bottom: 10rem;
-
+        margin-bottom: 12rem;
+        
         .circle::before{
 
         top: -3px;
@@ -64,6 +69,8 @@ export const Container = styled.div`
             margin-top: -1rem;
             margin-bottom: 1rem;
         }
+       
+
     }
     
 

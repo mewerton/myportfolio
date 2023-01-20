@@ -7,6 +7,14 @@ export const Container = styled.div`
     height: 90vh;
     margin-top: 4rem;
 
+    .awesome span:nth-of-type(1){
+        color: ${({theme}) => theme.COLORS.white};
+    }
+
+    .awesome span:nth-of-type(3){
+        color: ${({theme}) => theme.COLORS.white};
+    }
+
 /* right site */
 
 .w-right{
