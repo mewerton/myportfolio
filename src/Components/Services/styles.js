@@ -5,7 +5,6 @@ export const Container =  styled.div`
 padding: 0 3rem 0 3rem;
 display: flex;
 height: 90vh;
-margin-bottom: 8rem;
 margin-top: 10rem;
 margin-bottom: 13rem ;
 

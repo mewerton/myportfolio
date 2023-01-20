@@ -14,6 +14,7 @@ margin-top: 6rem;
     gap: 2rem;
 
 }
+
 .i-name{
     display: flex;
     flex-direction: column;

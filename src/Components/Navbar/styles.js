@@ -6,6 +6,8 @@ height: 10vh;
 display: flex;
 justify-content: space-between;
 
+max-width: 1480px;
+
 .n-left{
     flex: 1;
     align-items: center;

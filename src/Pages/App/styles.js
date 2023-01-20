@@ -6,6 +6,7 @@ export const Container = styled.div`
     overflow: hidden;
     color: ${({theme}) => theme.COLORS.black};
 
+
     @media screen and (max-width: 480px){
     
         padding: 0.5rem 1rem;
