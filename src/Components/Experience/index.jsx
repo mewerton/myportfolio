@@ -5,17 +5,17 @@ export function Experience(){
     return(
         <Container id="Experience">
             <div className="achievement">
-                <div className="circle">8+</div>
+                <div className="circle">+16</div>
                 <span>Anos de</span>
                 <span>experiência</span>
             </div>
             <div className="achievement">
-                <div className="circle">20+</div>
+                <div className="circle">+20</div>
                 <span>Projetos</span>
                 <span>desenvolvidos</span>
             </div>
             <div className="achievement">
-                <div className="circle">4+</div>
+                <div className="circle">+6</div>
                 <span>Empresas</span>
                 <span>trabalhadas</span>
                 

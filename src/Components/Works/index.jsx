@@ -1,10 +1,10 @@
 import { Container } from "./styles";
 
-import Upwork from "../../assets/Upwork.png"
-import Fiverr from "../../assets/fiverr.png"
-import Amazon from "../../assets/amazon.png"
-import Shopify from "../../assets/Shopify.png"
-import Facebook from "../../assets/Facebook.png"
+import Html5 from "../../assets/html5.png"
+import Css3 from "../../assets/css3.png"
+import React from "../../assets/react.png"
+import JS from "../../assets/js.png"
+import Ps from "../../assets/ps.png"
 
 import { motion } from "framer-motion";
 
@@ -14,16 +14,19 @@ export function Works(){
     return(
         <Container id="Works">
              <div className="awesome">
-                <span>Funciona para todas essas</span>
-                <span>Marcas & Serviços</span>
+                <span>Tecnologias modernas</span>
+                <span>para aplicações</span>
                 <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste, distinctio rem
+                    Como Desenvolvedor web front-end tenho buscado conhecimento diário em várias
                     <br />
-                    ispum is simples dummy text of printing
+                    tecnologias, mas principalmente o React e JavaScript para front-end, e por já ter
                     <br />
-                    dolor sit amet consectetur adipisicing elit. printing text of printing
+                    experiencia com o Photoshop, tenho como próximo objetivo aprofundar os meus 
                     <br />
-                    adipisicing elit. Quae iste, distinctio of printing simples dummy text
+                    conhecimentos em mais ferramentas de design como Figma, Sketch, Adobe XD, 
+                    <br />
+                    buscando assim tornar-me um Desenvolvedor Web e UX/UI Designer.
+
                 </span>
                 
                 <button className="button s-button">Contrate-me</button>
@@ -42,19 +45,19 @@ export function Works(){
                     className="w-mainCircle">
                     
                     <div className="w-secCircle">
-                        <img src={Upwork} alt="" />
+                        <img src={Html5} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Fiverr} alt="" />
+                        <img src={Css3} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Amazon} alt="" />
+                        <img src={React} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Shopify} alt="" />
+                        <img src={JS} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={Facebook} alt="" />
+                        <img src={Ps} alt="" />
                     </div>
                 </motion.div>
                 <div className="w-backCircle blueCircle"></div>

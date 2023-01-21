@@ -5,7 +5,7 @@ export const Container = styled.div`
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 80vh;
-    margin-top: 6rem;
+    margin-top: 12rem;
 
 .awesome span:nth-of-type(1){
     color: ${({theme}) => theme.COLORS.white};

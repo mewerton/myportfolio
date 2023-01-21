@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 
-import Vector4 from "../../assets/Vector4.png"
+// import Vector4 from "../../assets/Vector4.png"
 
 export function Contact(){
 
@@ -26,7 +26,7 @@ export function Contact(){
                     <span>Entre em </span>
                     <span>Contato</span>
                     <div className="blur c-blur1" style={{background: "#abf1ff94"}}></div>  
-                    <img src={Vector4} alt="" />
+                    {/* <img src={Vector4} alt="" /> */}
                 </div>
             </div>
             <div className="c-right">

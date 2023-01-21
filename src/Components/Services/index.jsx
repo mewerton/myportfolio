@@ -21,9 +21,15 @@ export function Services(){
                 <span>Minhas áreas</span>
                 <span>de trabalho</span>
                 <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste, distinctio rem
+                A busca por novos desafios é um ponto marcante na minha carreira,
                     <br />
-                    ispum is simples dummy text of printing
+                    os 16 anos no mercado de trabalho já me proporcionaram experiencias incríveis,
+                    <br />
+                    fui de professor de informática a desenvolvedor de robôs para o mercado financeiro, 
+                    <br />
+                    mas no último ano tenho dedicado o meu tempo apenas ao desenvolvimento web,
+                    <br />
+                    essa é a minha principal área de interesse.
                 </span>
                 <a href={CV} download>
                 <button className="button s-button">Download CV</button>
@@ -45,7 +51,7 @@ export function Services(){
                     <Card
                     emoji = {HeratEmoji}
                     heading = {"Design"}
-                    detail = {"Figma, stretck, Photoshop"}
+                    detail = {"Figma, Photoshop"}
                     />
                 </motion.div>
             {/* second card */}

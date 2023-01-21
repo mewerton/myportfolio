@@ -25,8 +25,7 @@ export function Intro(){
                 <div className="i-name">
                     <span>Olá! Sou</span>
                     <span>Mewerton Melo</span>
-                    <span>Desenvolvedor Front-End e Bacharel em Sistemas
-                    de Informações pela Universidade Estácio de Sá</span>
+                    <span>Bacharel em Sistemas de Informações pela Universidade Estácio de Sá, hoje atuo como Desenvolvedor Front-End </span>
                 </div>
                 <button className="button i-button">Contrate-me</button>
                 <div className="i-icons">

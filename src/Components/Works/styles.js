@@ -75,7 +75,7 @@ export const Container = styled.div`
 }
 
 .w-secCircle > img {
-    transform: scale(0.6);
+    transform: scale(0.33);
 }
 
 .w-backCircle{
