@@ -77,17 +77,20 @@ margin-top: 6rem;
     transform: scale(0.82);
     left: -15%;
     top: 8%;
+    display: none;
 }
 
 .i-right>:nth-child(2){
     top: -13.6%;
     transform: scale(0.77);
     left: -2rem;
+    display: none;
 }
 
 .i-right>:nth-child(3){
-    transform: scale(1.4);
-    left: 28%;
+    transform: scale(0.65);
+    left: -30%;
+    top: -35.6%;
 }
 
 .i-right>:nth-child(4){
@@ -97,6 +100,7 @@ margin-top: 6rem;
     padding: 0;
     margin-top: -25rem;
     margin-left: -15rem;
+    display: none;
 
 }
 
@@ -132,8 +136,8 @@ margin-top: 6rem;
     }
 
     .i-right>:nth-child(3){
-    transform: scale(1.3);
-    left: 58%;
+    transform: scale(0.8);
+    left: -58%;
 }
 
 }
