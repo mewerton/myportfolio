@@ -76,6 +76,7 @@ textarea{
         flex-direction: column;
         gap: 5rem;
         height: 40rem;
+        margin-top: 3rem;
 
         .c-right .user{
         width: 16rem;

@@ -100,9 +100,10 @@ export const Container = styled.div`
 
 @media screen and (max-width: 480px){
     flex-direction: column;
-    height: 55rem;
+    height: 45rem;
     padding: 0;
     gap: 5rem;
+    margin-top: -4rem;
 
     .w-right{
         display: flex;
@@ -116,7 +117,8 @@ export const Container = styled.div`
     }
 
     .w-backCircle{
-        left: 8rem !important;
+        /* left: 8rem !important; */
+        display: none;
     }
 
 }

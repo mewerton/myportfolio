@@ -56,6 +56,8 @@ export const Container = styled.div`
         flex-direction: column;
         gap: 3rem;
         margin-bottom: 12rem;
+        height: 50vh;
+        
         
         .circle::before{
 
