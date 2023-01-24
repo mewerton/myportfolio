@@ -25,6 +25,7 @@ Neste projeto foram abordados os seguintes temas:
 - [Styled Components](https://styled-components.com/)
 - [Framer Motion](https://www.npmjs.com/package/framer-motion)
 - [React Unicons](https://www.npmjs.com/package/@iconscout/react-unicons)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
 - [Swiper](https://swiperjs.com/)
 - [React Router Dom](https://react-icons.github.io/react-icons/)
 ---
