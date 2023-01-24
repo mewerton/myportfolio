@@ -15,7 +15,7 @@
 
 ## 💻 Sobre:
 
-A aplicação que desenvolvida é minha página profissional com informações sobre experiência, área de trabalho, interesses, alguns projetos desenvolvidos e informações para contato.
+A aplicação desenvolvida é minha página profissional com informações sobre experiência, área de trabalho, interesses, alguns projetos desenvolvidos e informações para contato.
 
 Neste projeto foram abordados os seguintes temas:
 
