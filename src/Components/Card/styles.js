@@ -34,8 +34,58 @@ export const Container = styled.div`
         font-size: 16px;
         color: ${({theme}) => theme.COLORS.blueText};
 
-        cursor: pointer;
+        
     }
+
+    .information{
+        width: 80vh;
+        top: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: -10rem;
+        margin-left: -13rem;
+        background: ${({theme}) => theme.COLORS.background_yellow};
+        box-shadow: 0px 20px 24px 3px ${({theme}) => theme.COLORS.background_orange};
+
+        border-radius: 1rem;
+        padding: 1rem;
+        
+        >h1{
+            margin-bottom: 1rem;
+        }
+
+        >p{
+            margin-bottom: 1rem;
+            font-size: 14px;
+        }
+
+        >button{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            color: ${({theme}) => theme.COLORS.black};
+        }
+
+
+        
+    }
+
+    .read-more{
+        
+        >button{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+
+        }
+    }
+
+
+
 
     @media screen and (max-width: 480px){
         width: 100%;

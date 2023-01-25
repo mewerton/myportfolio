@@ -52,6 +52,9 @@ export function Services(){
                     emoji = {HeratEmoji}
                     heading = {"Design"}
                     detail = {"Figma, Photoshop"}
+                    cardTitle = {"Design"}
+                    cardText = {" Ainda na Universidade fiz um curso de web designer, e esse conhecimento foi muito útil em todos os trabalhos que já fiz na vida, sempre acabei fazendo material publicitário por todas empresas que passei, o Photoshop me ajudou bastante nisso, e agora tenho conhecido o Figma para desenvolver projetos. "}                    
+                    
                     />
                 </motion.div>
             {/* second card */}
@@ -65,6 +68,9 @@ export function Services(){
                     emoji={Glasses}
                     heading={"Desenvolvedor"}
                     detail={"Html, Css, JavaScript, React"}
+                    cardTitle = {"Desenvolvedor"}
+                    cardText = {"Meu foco está voltado ao desenvolvimento web, a cada dia tenho me desafiado e buscado desenvolver cada vez mais projetos para adquirir o máximo de conhecimento, as bibliotecas do React são cada vez interessantes, e o estudo precisa ser contínuo para manter-se atualizado."} 
+                    
                 />
             </motion.div>
             {/* 3° card */}
@@ -76,8 +82,11 @@ export function Services(){
                 style={{top: "17rem", left:"12rem"}}>
                 <Card
                     emoji={Humble}
-                    heading={"Instrutor"}
-                    detail={"Facilidade para gravar vídeos explicativos sobre sistemas desenvolvidos"}
+                    heading={"Vendas On-line"}
+                    detail={"Crio conteúdo para redes sociais, seja vendendo ou apenas educando"}
+                    cardTitle = {"Instrutor"}
+                    cardText = {"Trabalhei com vendas por toda a minha vida, seja de um produto físico ou digital, em várias situações utilizei essa desenvoltura para criar conteúdo digital, seja gravando vídeos de propaganda ou material educativo, como por exemplo vídeos explicando o manuseio de um determinado sistema, sua instalação, atualização de versão, tudo que necessitava ser explicado ao usuário. Em todas essas situações eu mesmo criava o roteiro e o conteúdo, como também já fui professor, tenho uma certa facilidade em transmitir meus conhecimentos."} 
+
                 />
             </motion.div>
              {/* blur divs */}
