@@ -11,7 +11,7 @@ export function Contact(){
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_33621pb', 'template_m9ooobm', form.current, 'pUfcvc_xgEeuJ8jVT')
+      emailjs.sendForm('service_wm3dl78', 'template_m9ooobm', form.current, 'pUfcvc_xgEeuJ8jVT')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
