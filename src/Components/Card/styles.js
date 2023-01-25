@@ -94,7 +94,7 @@ export const Container = styled.div`
         .information{
 
         width: 48vh;
-        top: 0;
+        top: -3rem;
         position: absolute;
         display: flex;
         flex-direction: column;
