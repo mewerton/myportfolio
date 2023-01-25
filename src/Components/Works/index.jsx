@@ -29,7 +29,7 @@ export function Works(){
 
                 </span>
                 
-                <button className="button s-button">Contrate-me</button>
+                {/* <button className="button s-button">Vamos fazer um projeto?</button> */}
                 
                 {/* blur divs */}
                 <div className="blur s-blur1" style={{background:"#abf1ff94"}}></div>

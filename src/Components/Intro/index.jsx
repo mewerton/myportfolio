@@ -27,7 +27,9 @@ export function Intro(){
                     <span>Mewerton Melo</span>
                     <span>Bacharel em Sistemas de Informações pela Universidade Estácio de Sá, hoje atuo como Desenvolvedor Front-End </span>
                 </div>
-                <button className="button i-button">Contrate-me</button>
+                
+                {/* <button className="button i-button">Contrate-me</button> */}
+                
                 <div className="i-icons">
                     <a href="https://github.com/mewerton" target="_blank">
                     <img src={Github} alt="imagem do Github" />

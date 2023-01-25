@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 // import Vector4 from "../../assets/Vector4.png"
 
@@ -8,12 +8,15 @@ export function Contact(){
 
     const form = useRef();
 
+    const [done, setDone] = useState(false)
+
     const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs.sendForm('service_wm3dl78', 'template_m9ooobm', form.current, 'pUfcvc_xgEeuJ8jVT')
         .then((result) => {
             console.log(result.text);
+            setDone(true)
         }, (error) => {
             console.log(error.text);
         });
@@ -35,6 +38,7 @@ export function Contact(){
                     <input type="email" name="user_email" className="user" placeholder="E-mail"/>
                     <textarea name="message" className="user" placeholder="Mensagem"></textarea>
                     <input type="submit" value="Enviar" className="button" />
+                    <span>{done && "Mensagem enviada! Obrigado!"} </span>
                     <div>
                         <div className="blur c-blur2" style={{ background: "rgb(238 210 255)" }}></div>
                     </div>

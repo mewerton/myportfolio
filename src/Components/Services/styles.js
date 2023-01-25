@@ -96,6 +96,7 @@ margin-bottom: 13rem ;
     gap: 5rem;
     height: 66rem;
     padding: 0;
+    margin-bottom: 15rem ;
 
     .cards{
         display: flex;
