@@ -13,7 +13,7 @@ export function Contact(){
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('servicex', 'templatex', form.current, 'xxxxxxxxx')
+      emailjs.sendForm('servicexx', 'templatexx', form.current, 'xxxxxxxxxx')
         .then((result) => {
             console.log(result.text);
             setDone(true)
