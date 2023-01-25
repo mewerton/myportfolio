@@ -75,6 +75,7 @@ export const Container = styled.div`
     }
 
     .read-more{
+
         
         >button{
             border: none;
@@ -89,6 +90,32 @@ export const Container = styled.div`
 
     @media screen and (max-width: 480px){
         width: 100%;
+
+        .information{
+
+        width: 48vh;
+        top: 0;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        margin-top: -13rem;
+        margin-left: -6.8rem;
+        background: ${({theme}) => theme.COLORS.background_yellow};
+        box-shadow: 0px 20px 24px 3px ${({theme}) => theme.COLORS.background_orange};
+
+        border-radius: 1rem;
+        padding: 1rem;
+
+        >p{
+            margin-bottom: 1rem;
+            font-size: 16px;
+        }
+            
+        }
+
     }
 
 `

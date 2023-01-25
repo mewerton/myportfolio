@@ -131,7 +131,12 @@ margin-top: 6rem;
     }
 
     .floating-div:nth-of-type(1){
-        top: -7rem !important
+        top: -11rem !important;
+        margin-left: -1rem;
+
+    }
+    .floating-div:nth-of-type(2){
+        margin-left: 1.5rem;
 
     }
 
