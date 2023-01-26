@@ -25,13 +25,13 @@ export function Footer(){
                 </div>
                 <span>mewerton@gmail.com</span>
                 <div className="f-icons">
-                    <a href="https://www.linkedin.com/in/mewerton/">
+                    <a href="https://www.linkedin.com/in/mewerton/" target="_blank">
                         <Linkedin color="white" size="3rem"/>
                     </a>
-                    <a href="https://github.com/mewerton">
+                    <a href="https://github.com/mewerton" target="_blank">
                         <Github color="white" size="3rem"/>
                     </a>
-                    <a href="https://www.instagram.com/mewerton/">
+                    <a href="https://www.instagram.com/mewerton/" target="_blank">
                         <Instagram color="white" size="3rem"/>
                     </a>
                 </div>
