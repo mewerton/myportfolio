@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 import {Swiper, SwiperSlide} from "swiper/react"
 
-import Sidebar from "../../assets/sidebar.png"
-import Ecommerce from "../../assets/ecommerce.png"
-import MusicApp from "../../assets/musicapp.png"
+import FoodExplorer from "../../assets/foodexplorer.png"
+import ImportantNotes from "../../assets/importantnotes.png"
+import MyPortfolio from "../../assets/myportfolio.png"
 import 'swiper/css'
 
 
@@ -27,17 +27,17 @@ export function Portfolio(){
                 >
                     <SwiperSlide>
                         <a href="https://github.com/mewerton/FoodExplorer_FrontEnd" target="_blank">
-                        <img src={Sidebar} alt="" />
+                        <img src={FoodExplorer} alt="" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="https://github.com/mewerton/ImportantNotes_FrontEnd" target="_blank">
-                        <img src={Ecommerce} alt="" />
+                        <img src={ImportantNotes} alt="" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
                         <a href="https://github.com/mewerton/myportfolio" target="_blank">
-                        <img src={MusicApp} alt="" />
+                        <img src={MyPortfolio} alt="" />
                         </a>
                     </SwiperSlide>
                  
