@@ -10,7 +10,7 @@ export function Experience(){
                 <span>experiência</span>
             </div>
             <div className="achievement">
-                <div className="circle">+20</div>
+                <div className="circle">+10</div>
                 <span>Projetos</span>
                 <span>desenvolvidos</span>
             </div>
