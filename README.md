@@ -3,14 +3,14 @@
 </p>
 
 <h4 align="center"> 
-	 Status: Em desenvolvimento...
+	 Status: Finalizado
 </h4>
 <p align="center">
-  <h4 align="center"><a href="#">https://...</a></h4>
+  <h4 align="center"><a href="https://mewerton.com.br/">https://mewerton.com.br/</a></h4>
 </p>
 
 <p align="center">
-  <img width="800" src="./src/assets/musicapp.png">
+  <img width="800" src="./src/assets/myportfolio.png">
 </p>
 
 ## 💻 Sobre:
