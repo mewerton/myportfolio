@@ -3,12 +3,8 @@ import {Swiper, SwiperSlide} from "swiper/react"
 
 import Sidebar from "../../assets/sidebar.png"
 import Ecommerce from "../../assets/ecommerce.png"
-import HOC from "../../assets/hoc.png"
 import MusicApp from "../../assets/musicapp.png"
 import 'swiper/css'
-
-import IconLink from "@iconscout/react-unicons/icons/uil-external-link-alt"
-
 
 
 export function Portfolio(){
@@ -44,12 +40,7 @@ export function Portfolio(){
                         <img src={MusicApp} alt="" />
                         </a>
                     </SwiperSlide>
-                    {/* <SwiperSlide>
-                        <a href="">
-                        <img src={HOC} alt="" />
-                        </a>
-                    </SwiperSlide> */}
-
+                 
                 </Swiper>
             </div>
         </Container>
