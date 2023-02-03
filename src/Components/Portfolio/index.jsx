@@ -4,6 +4,7 @@ import {Swiper, SwiperSlide} from "swiper/react"
 import FoodExplorer from "../../assets/foodexplorer.png"
 import ImportantNotes from "../../assets/importantnotes.png"
 import MyPortfolio from "../../assets/myportfolio.png"
+import WebSiteHotel from "../../assets/apresentarhotel.png"
 import 'swiper/css'
 
 
@@ -25,6 +26,11 @@ export function Portfolio(){
                 grabCursor={true}
                 className="portfolio-slider"
                 >
+                    <SwiperSlide>
+                        <a href="https://github.com/mewerton/paraisobarrahotel" target="_blank">
+                        <img src={WebSiteHotel} alt="" />
+                        </a>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <a href="https://github.com/mewerton/FoodExplorer_FrontEnd" target="_blank">
                         <img src={FoodExplorer} alt="" />
